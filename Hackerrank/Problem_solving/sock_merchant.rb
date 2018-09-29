@@ -8,7 +8,7 @@ def sockMerchant(n, ar)
   hash = ar.group_by do |x|
     x
   end
-  res = hash.map do |k, v|
+  hash.map do |_k, v|
     n = v.length
     (n / 2) if n >= 2
   end.compact.reduce(0, :+)
