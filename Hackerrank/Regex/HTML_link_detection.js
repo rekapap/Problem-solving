@@ -10,7 +10,11 @@ function processData(input) {
       }
   } while (match);
   console.log(results.join('\n'));
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> 1d62395dbfd11623862418b6353f6af3f1129d25
 
 process.stdin.resume();
 process.stdin.setEncoding("ascii");
